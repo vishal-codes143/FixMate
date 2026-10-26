@@ -359,7 +359,7 @@ body {
     }
 
     .hero p {
-        font-size:@media (max-width: 768px) {
+        font-size: @media (max-width: 768px) {
 
             * {
                 box-sizing: border-box;
