@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FixMate | Smart Repair Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Fix<span>Mate.</span></h2>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#Services">Services</a>
+                <a href="#how-it-works">How It Work</a>
+                <a href="#Contact">Contact</a>
+
+            </div>
+
+            <a href="#booking" class="nav-btn">Book Repair</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+                <h1>Your Trusted Partner for
+                    <span>Smart Repairs.</span>
+                </h1>
+
+                <p>From smartphones to laptops, Fixmate makes repairing your devices simple and convenient</p>
+
+                <div class="hero-buttons">
+                    <a href="#services" class="btn-primary">
+                        Explore Services
+                    </a>
+
+                    <a href="#booking" class="btn-secondary">Booking</a>
+
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+
+            <h2>Our Repair Services</h2>
+            <p>Choose the service your device needs.</p>
+
+            <div class="service-container">
+
+                <div class="service-card 1">
+                    <h3> Mobile Repair</h3>
+                    <p>Professional smartphone repair solutions.</p>
+                </div>
+
+                <div class="service-card 2">
+                    <h4>Laptop Repair</h4>
+                    <p>Professional laptops repair solutions.</p>
+                </div>
+
+                <div class="service-card 3">
+                    <h5>AC Repair</h5>
+                    <p>Professional AC repair solutions.</p>
+
+                </div>
+
+                <div class="service-card 4">
+                    <h6>Refrigerator Repair</h6>
+                    <p>Professional Refrigerator repair solutions.</p>
+                </div>
+
+            </div>
+
+        </section>
+        <div class="step-card">
+            <h3>01</h3>
+            <h4>Welcome to FixMate</h4>
+            <p>Thanks for your beleive . Fill your problem and i will solve it</p>
+        </div>
+
+        <div class="step-card">
+            <h3>02</h3>
+            <h4>Book a Repair</h4>
+            <p>Fill out the form to request repair.</p>
+        </div>
+        <div class="step-card">
+            <h3>03</h3>
+            <h4>Track Your Request</h4>
+            <p>Stay updated about your repair request.</p>
+        </div>
+
+
+
+
+        </section>
+        <section id="booking" class="booking">
+
+            <h2>Book a Repair</h2>
+            <p>Submit a demo repair request in a few steps.</p>
+
+            <form id="bookingForm">
+
+                <label for="customerName">Your Name</label>
+                <input type="text" id="customerName" placeholder="Enter a demo name" required>
+
+                <label for="service">Select Service</label>
+                <select id="service" required>
+                    <option value="">Choose a Service</option>
+                    <option value="mobile">Mobile Repair</option>
+                    <option value="laptop">Laptop Repair</option>
+                    <option value="AC">AC Repair</option>
+                    <option value="Refrigerator">Refrigerator Repair</option>
+                </select>
+
+
+
+                <label for="problem">Describe the Problem</label>
+                <textarea id="problem" placeholder="Describe your device issue" required></textarea>
+
+                <button type="submit">Book Repair</button>
+
+            </form>
+            <p id="bookingMessage"></p>
+
+        </section>
+
+        <section id="tracking" class="tracking">
+            <h2>Track Your Repair</h2>
+            <p>Enter your Request ID to check your repair status.</p>
+
+            <input type="text" id="trackId" placeholder="Example: FIX-154419">
+
+            <button id="trackBtn" type="button">Track Repair</button>
+
+            <p id="trackResult"></p>
+        </section>
+
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,407 @@
+/* FIXMATE - GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #0f172a;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: white;
+}
+
+.logo {
+    font-size: 28px;
+    color: #0f172a;
+}
+
+.logo span {
+    color: #2563eb;
+}
+
+
+
+/* TODO: Style .nav-links a */
+
+/* HERO */
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    padding: 70px 8%;
+    background: linear-gradient(135deg, #eff6ff, #ffffff);
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    color: #2563eb;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid blue;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0f172a;
+    font-weight: 500;
+}
+
+/* HERO PARAGRAPH */
+
+.hero-content p {
+    font-size: 18px;
+    color: #64748b;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+/* HERO BUTTONS */
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn-secondary {
+    background-color: #2563eb;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: 2px solid blue;
+    text-decoration: none;
+}
+
+.services {
+    padding: 80px 8%;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.services h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+
+
+}
+
+.service-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.service-card {
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.service-card {
+    background-color: white;
+    padding: 30px;
+
+    border-radius.service-card {
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+}
+
+.service-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0f172a;
+}
+
+.service-card h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0f172a;
+
+}
+
+.service-card h5 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0f172a;
+}
+
+.service-card h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0f172a;
+}
+
+.service-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #64748b;
+}
+
+.service-card:hover {
+    transform: translateY(5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.booking {
+    padding: 80px 8%;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#bookingForm {
+    max-width: 550px;
+    margin: 35px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+.step-card {
+    padding: 25px;
+    border: 1px solid #ddd;
+    border: 12px;
+    text-align: center;
+    display: grid;
+}
+
+.step-card {
+    padding: 25px;
+    border: 1px solid #ddd;
+    border: 12px;
+    text-align: center;
+    display: grid;
+}
+
+.step-card {
+    padding: 25px;
+    border: 1px solid #ddd;
+    border: 12px;
+    text-align: center;
+    display: grid;
+}
+
+
+
+#bookingForm input,
+#bookingForm select,
+#bookingForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+
+}
+
+#bookingForm button {
+    background: #2563eb;
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 12px;
+    cursor: none;
+
+}
+
+#bookingForm select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.tracking {
+    padding: 80px 10%;
+    text-align: center;
+    background: #f4f8fc;
+}
+
+.tracking h2 {
+    font-size: 38px;
+    color: #26324b;
+    margin-bottom: 15px;
+}
+
+.tracking input {
+    padding: 15px;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px 10px;
+}
+
+.tracking button {
+    padding: 15px 25px;
+    background: #26a7d1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#trackResult {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #26324b;
+}
+
+.tracking {
+    padding: 80px 10%;
+    text-align: center;
+    background: #f4f8fc;
+}
+
+.tracking h2 {
+    font-size: 38px;
+    color: #26324b;
+    margin-bottom: 15px;
+}
+
+.tracking input {
+    padding: 15px;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px 10px;
+}
+
+.tracking button {
+    padding: 15px 25px;
+    background: #26a7d1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#trackResult {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #26324b;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size:@media (max-width: 768px) {
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .services {
+                padding: 40px 15px;
+            }
+
+            .service-card {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .booking {
+                padding: 40px 15px;
+            }
+
+            .booking input,
+            .booking select,
+            .booking textarea {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        16px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+}
